@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComércioLocal • Template Premium</title>
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontes e ícones (Google Fonts + Font Awesome via CDN - apenas para ícones) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- NAVBAR FIXA -->
+    <header class="navbar" id="navbar">
+        <div class="container navbar-container">
+            <a href="#" class="logo" id="logoLoja"> <!-- EDITAR: nome da loja -->
+                <i class="fas fa-store-alt"></i> <span>ComércioLocal</span>
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="navbar-actions">
+                <a href="https://wa.me/5511999999999" target="_blank" class="btn btn-whatsapp btn-nav-wpp" id="btnNavWpp"> <!-- EDITAR: número WhatsApp -->
+                    <i class="fab fa-whatsapp"></i> <span>Fale no WhatsApp</span>
+                </a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Sua loja merece um site profissional</h1> <!-- EDITAR: headline -->
+                <p class="hero-subtitle">Aumente suas vendas, conquiste clientes e fortaleça sua presença digital com um site moderno e confiável.</p> <!-- EDITAR: subheadline -->
+                <div class="hero-buttons">
+                    <a href="#contato" class="btn btn-primary">Quero começar</a>
+                    <a href="https://wa.me/5511999999999" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a> <!-- EDITAR: número -->
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- EDITAR: imagem representando comércio (substituir src) -->
+                <img src="https://images.pexels.com/photos/4483610/pexels-photo-4483610.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Loja local atendendo cliente" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section" id="sobre">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre nossa empresa</h2>
+                <p class="section-subtitle">Tradição e inovação para o seu negócio</p> <!-- EDITAR: subtítulo -->
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Há mais de 10 anos ajudando comércios locais a se destacarem. Nossa missão é oferecer atendimento de excelência e produtos de qualidade, criando relações de confiança com cada cliente.</p> <!-- EDITAR: texto sobre -->
+                    <p><strong>Missão:</strong> Valorizar o comércio de bairro com soluções digitais e atendimento humanizado.</p> <!-- EDITAR: missão -->
+                    <p><strong>Diferencial:</strong> Conhecimento do mercado local e suporte próximo.</p>
+                </div>
+                <div class="about-highlight">
+                    <div class="highlight-card">
+                        <i class="fas fa-medal"></i>
+                        <h4>+500 clientes satisfeitos</h4>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-trophy"></i>
+                        <h4>Prêmio Líderes Locais 2024</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVIÇOS / PRODUTOS -->
+    <section class="section" id="servicos">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossos serviços</h2>
+                <p class="section-subtitle">Soluções feitas para o seu negócio</p> <!-- EDITAR: texto -->
+            </div>
+            <div class="services-grid">
+                <!-- card 1 -->
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-cut"></i></div>
+                    <h3>Corte e estilo</h3>
+                    <p>Profissionais experientes para realçar sua beleza. (ex: salão)</p> <!-- EDITAR: descrição -->
+                </div>
+                <!-- card 2 -->
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-car"></i></div>
+                    <h3>Revisão completa</h3>
+                    <p>Revisão preventiva e corretiva para seu veículo. (ex: oficina)</p>
+                </div>
+                <!-- card 3 -->
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-tshirt"></i></div>
+                    <h3>Moda feminina/masculina</h3>
+                    <p>Roupas de qualidade com as últimas tendências. (ex: loja de roupas)</p>
+                </div>
+                <!-- card 4 -->
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-pizza-slice"></i></div>
+                    <h3>Comida caseira</h3>
+                    <p>Pratos frescos e delivery rápido. (ex: restaurante)</p>
+                </div>
+                <!-- card 5 -->
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-bread-slice"></i></div>
+                    <h3>Padaria & mercearia</h3>
+                    <p>Produtos fresquinhos e atendimento acolhedor. (ex: mercado)</p>
+                </div>
+                <!-- card 6 -->
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Materiais elétricos</h3>
+                    <p>Variedade e orientação técnica. (ex: comércio geral)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DIFERENCIAIS (CONFIANÇA) -->
+    <section class="section section-diff">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Por que escolher nosso comércio?</h2>
+                <p class="section-subtitle">Qualidade, confiança e experiência</p>
+            </div>
+            <div class="differentials-list">
+                <div class="diff-item"><i class="fas fa-check-circle"></i> <span>Atendimento personalizado e próximo</span></div>
+                <div class="diff-item"><i class="fas fa-check-circle"></i> <span>Produtos com garantia e procedência</span></div>
+                <div class="diff-item"><i class="fas fa-check-circle"></i> <span>Mais de 15 anos de experiência</span></div>
+                <div class="diff-item"><i class="fas fa-check-circle"></i> <span>Profissionais qualificados e treinados</span></div>
+                <div class="diff-item"><i class="fas fa-check-circle"></i> <span>Ambiente seguro e acessível</span></div>
+                <div class="diff-item"><i class="fas fa-check-circle"></i> <span>Compromisso com prazos e orçamentos</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">O que nossos clientes dizem</h2>
+                <p class="section-subtitle">Feedbacks reais de quem confia no nosso trabalho</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Atendimento excelente, resolveu meu problema rapidamente. Super recomendo!"</p>
+                    <div class="testimonial-author">
+                        <i class="fas fa-user-circle"></i>
+                        <div>
+                            <h4>Carlos Andrade</h4>
+                            <span>Cliente há 3 anos</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Site moderno e fácil de navegar. Consegui encontrar tudo o que precisava. Nota 10!"</p>
+                    <div class="testimonial-author">
+                        <i class="fas fa-user-circle"></i>
+                        <div>
+                            <h4>Marina Souza</h4>
+                            <span>Cliente recente</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Equipe muito atenciosa, fizeram a diferença no meu negócio. Recomendo a todos!"</p>
+                    <div class="testimonial-author">
+                        <i class="fas fa-user-circle"></i>
+                        <div>
+                            <h4>Ricardo Menezes</h4>
+                            <span>Empresário</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CHAMADA FINAL (CTA) -->
+    <section class="section cta-section">
+        <div class="container cta-container">
+            <h2 class="cta-title">Pronto para alavancar suas vendas?</h2>
+            <p class="cta-subtitle">Fale agora conosco e tenha um site profissional para o seu comércio.</p>
+            <a href="https://wa.me/5511999999999" target="_blank" class="btn btn-whatsapp btn-large" id="ctaWpp"><i class="fab fa-whatsapp"></i> Chamar no WhatsApp</a> <!-- EDITAR: número -->
+        </div>
+    </section>
+
+    <!-- CONTATO (com mapa placeholder) -->
+    <section class="section" id="contato">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Entre em contato</h2>
+                <p class="section-subtitle">Estamos prontos para atender você</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-item"><i class="fas fa-map-marker-alt"></i> <span>Rua das Flores, 123 - Centro, São Paulo/SP</span></div> <!-- EDITAR: endereço -->
+                    <div class="info-item"><i class="fas fa-phone-alt"></i> <span>(11) 99999-9999</span></div> <!-- EDITAR: telefone fixo -->
+                    <div class="info-item"><i class="fab fa-whatsapp"></i> <span>(11) 99999-9999</span></div> <!-- EDITAR: whatsapp -->
+                    <a href="https://wa.me/5511999999999" target="_blank" class="btn btn-whatsapp contact-wpp-btn"><i class="fab fa-whatsapp"></i> Enviar mensagem</a>
+                </div>
+                <div class="map-placeholder">
+                    <!-- Placeholder mapa: se quiser substituir por iframe real, troque aqui -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.197501234567!2d-46.654321!3d-23.561234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa987%3A0x23f8a8d9d9b9f9b9!2sS%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1234567890" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <h3><i class="fas fa-store-alt"></i> ComércioLocal</h3> <!-- EDITAR: nome -->
+                    <p>Soluções para pequenos negócios com atendimento de verdade.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links rápidos</h4>
+                    <ul>
+                        <li><a href="#hero">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Redes sociais</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ComércioLocal. Todos os direitos reservados.</p> <!-- EDITAR: ano/empresa -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOTÃO WHATSAPP FLUTUANTE -->
+    <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-float" id="wppFloat" aria-label="WhatsApp"> <!-- EDITAR: número -->
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- JS externo -->
+    <script src="script.js"></script>
+</body>
+</html>
